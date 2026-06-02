@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div className="relative min-h-[320px] bg-black/20">
             <img
-              src="/id.jpg"
+              src="/d.jpeg"
               alt="Professional portrait for the work page"
               className="h-full w-full object-cover"
             />
