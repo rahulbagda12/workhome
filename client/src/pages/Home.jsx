@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail, PhoneCall, Layers, Users, Award, BookOpen, Sparkles, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { campaignData, networkMarketing } from '../data/mock';
 
 const stats = [
@@ -95,7 +96,7 @@ export default function Home() {
           <div className="mt-6 text-sm text-slate-400">{networkMarketing.portfolioDescription}</div>
           <div className="mt-6 flex gap-3">
             <a href={`tel:${campaignData.contactPhone.replace(/\s+/g, '')}`} className="neo-button">Call to join</a>
-            <a href="/contact" className="glass-button">Contact page</a>
+            <Link to="/contact" className="glass-button">Contact page</Link>
           </div>
         </div>
       </section>
