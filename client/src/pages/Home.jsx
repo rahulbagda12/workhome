@@ -95,7 +95,7 @@ export default function Home() {
           <div className="mt-6 text-sm text-slate-400">{networkMarketing.portfolioDescription}</div>
           <div className="mt-6 flex gap-3">
             <a href={`tel:${campaignData.contactPhone.replace(/\s+/g, '')}`} className="neo-button">Call to join</a>
-            <a href="/contact.jsx" className="glass-button">Contact page</a>
+            <a href="/Contact.jsx" className="glass-button">Contact page</a>
           </div>
         </div>
       </section>
