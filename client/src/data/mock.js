@@ -1,6 +1,5 @@
 export const campaignData = {
-  contactName: 'Binal Chavda',
-  contactPhone: '+91 78628 15015'
+  contactName: 'Binal Chavda'
 };
 
 export const networkMarketing = {
