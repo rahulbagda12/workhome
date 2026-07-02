@@ -1,14 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home, Mail } from 'lucide-react';
+import { Home } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ParticleBg from './components/ParticleBg';
 import HomePage from './pages/Home';
-import ContactPage from './pages/Contact';
 
 const navItems = [
-  { to: '/', label: 'Work', icon: Home },
-  { to: '/contact', label: 'Contact Me', icon: Mail }
+  { to: '/', label: 'Best Of Luck...!!', icon: Home }
 ];
 
 function Shell({ children }) {
@@ -27,7 +25,6 @@ export default function App() {
     <Shell>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Shell>
   );
